@@ -1,6 +1,7 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
+require './lib/support/connection_adapter'
 
 Bundler.require
 
